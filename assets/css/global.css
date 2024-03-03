@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  color: blanchedalmond;
+}
+
+.main {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  border: solid 0.2rem whitesmoke;
+  border-radius: 1rem;
+}
+
+.main::before {
+  content: "";
+  background-image: linear-gradient(
+    to bottom right,
+    rgba(100, 25, 221, 0.861),
+    rgba(1, 16, 52, 0.831),
+    rgba(4, 17, 47, 0.912),
+    rgba(4, 17, 47, 0.912),
+    rgba(4, 17, 47, 0.912),
+    rgba(1, 16, 52, 0.831),
+    rgba(96, 12, 181, 0.736)
+  );
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 100%;
+
+  display: inline-block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+}
