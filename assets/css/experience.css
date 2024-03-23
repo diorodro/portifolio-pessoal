@@ -1,0 +1,27 @@
+.experience {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.experience li {
+  margin-bottom: 1rem;
+}
+
+.experience li .period {
+  display: flex;
+  flex-direction: row;
+}
+
+.experience li .period::before {
+  content: "";
+  display: inline-block;
+  width: 1.3rem;
+  height: 1.1rem;
+  background-image: url("/assets/img/icons/calendar-svgrepo-com.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-right: 0.25rem;
+}

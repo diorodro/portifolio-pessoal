@@ -59,6 +59,16 @@
   background-image: url("/assets/img/icons/profile-svgrepo-com.svg");
 }
 
+.info a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.info a:hover {
+  text-decoration: underline;
+  font-family: 700;
+}
+
 .info .location::before {
   background-image: url("/assets/img/icons/pin-svgrepo-com.svg");
 }
