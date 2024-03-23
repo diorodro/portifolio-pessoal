@@ -1,0 +1,30 @@
+.languages {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.languages li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 1rem;
+  font-weight: 500;
+  font-size: 1.25rem;
+}
+
+.languages li::before {
+  content: "";
+  display: inline-block;
+  width: 1.5rem;
+  height: 1.3rem;
+  background-image: url("/assets/img/icons/check-mark-circle-svgrepo-com.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-right: 0.25rem;
+}
